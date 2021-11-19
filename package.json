@@ -1,0 +1,44 @@
+{
+  "name": "svg-loaders-vue",
+  "version": "1.0.0",
+  "description": "Vue implementation of the SVG Loaders library by Sam Herbert",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yauri-io/svg-loaders-vue.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "peerDependencies": {
+    "vue": "^3.2.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.4",
+    "path": "^0.12.7",
+    "vite": "^2.6.14"
+  },
+  "scripts": {
+    "dev": "vite ./src/demo",
+    "build": "vite build"
+  },
+  "keywords": [
+    "vue",
+    "svgloaders",
+    "svg",
+    "loaders",
+    "loader",
+    "loading",
+    "spinners",
+    "spinner"
+  ],
+  "author": "y-io",
+  "license": "MIT"
+}
