@@ -5,7 +5,7 @@ var _export_sfc = (sfc, props) => {
   }
   return sfc;
 };
-const _sfc_main$a = {
+const _sfc_main$b = {
   name: "Audio",
   props: {
     width: {
@@ -22,7 +22,7 @@ const _sfc_main$a = {
     }
   }
 };
-const _hoisted_1$a = /* @__PURE__ */ createElementVNode("g", { transform: "matrix(1 0 0 -1 0 80)" }, [
+const _hoisted_1$b = /* @__PURE__ */ createElementVNode("g", { transform: "matrix(1 0 0 -1 0 80)" }, [
   /* @__PURE__ */ createElementVNode("rect", {
     width: "10",
     height: "20",
@@ -83,16 +83,16 @@ const _hoisted_1$a = /* @__PURE__ */ createElementVNode("g", { transform: "matri
     })
   ])
 ], -1);
-function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
+function _sfc_render$b(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 55 80" }), {
     default: withCtx(() => [
-      _hoisted_1$a
+      _hoisted_1$b
     ]),
     _: 1
   }, 16);
 }
-var Audio = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["render", _sfc_render$a]]);
-const _sfc_main$9 = {
+var Audio = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["render", _sfc_render$b]]);
+const _sfc_main$a = {
   name: "BallTriangle",
   props: {
     width: {
@@ -109,7 +109,7 @@ const _sfc_main$9 = {
     }
   }
 };
-const _hoisted_1$9 = /* @__PURE__ */ createElementVNode("g", {
+const _hoisted_1$a = /* @__PURE__ */ createElementVNode("g", {
   transform: "translate(1 1)",
   "stroke-width": "2",
   fill: "none",
@@ -188,16 +188,16 @@ const _hoisted_1$9 = /* @__PURE__ */ createElementVNode("g", {
     })
   ])
 ], -1);
-function _sfc_render$9(_ctx, _cache, $props, $setup, $data, $options) {
+function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 57 57" }), {
     default: withCtx(() => [
-      _hoisted_1$9
+      _hoisted_1$a
     ]),
     _: 1
   }, 16);
 }
-var BallTriangle = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$9]]);
-const _sfc_main$8 = {
+var BallTriangle = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["render", _sfc_render$a]]);
+const _sfc_main$9 = {
   name: "Bars",
   props: {
     width: {
@@ -214,7 +214,7 @@ const _sfc_main$8 = {
     }
   }
 };
-const _hoisted_1$8 = /* @__PURE__ */ createElementVNode("rect", {
+const _hoisted_1$9 = /* @__PURE__ */ createElementVNode("rect", {
   y: "10",
   width: "15",
   height: "120",
@@ -237,7 +237,7 @@ const _hoisted_1$8 = /* @__PURE__ */ createElementVNode("rect", {
     repeatCount: "indefinite"
   })
 ], -1);
-const _hoisted_2$5 = /* @__PURE__ */ createElementVNode("rect", {
+const _hoisted_2$6 = /* @__PURE__ */ createElementVNode("rect", {
   x: "30",
   y: "10",
   width: "15",
@@ -261,7 +261,7 @@ const _hoisted_2$5 = /* @__PURE__ */ createElementVNode("rect", {
     repeatCount: "indefinite"
   })
 ], -1);
-const _hoisted_3$4 = /* @__PURE__ */ createElementVNode("rect", {
+const _hoisted_3$5 = /* @__PURE__ */ createElementVNode("rect", {
   x: "60",
   width: "15",
   height: "140",
@@ -332,20 +332,20 @@ const _hoisted_5$3 = /* @__PURE__ */ createElementVNode("rect", {
     repeatCount: "indefinite"
   })
 ], -1);
-function _sfc_render$8(_ctx, _cache, $props, $setup, $data, $options) {
+function _sfc_render$9(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 135 140" }), {
     default: withCtx(() => [
-      _hoisted_1$8,
-      _hoisted_2$5,
-      _hoisted_3$4,
+      _hoisted_1$9,
+      _hoisted_2$6,
+      _hoisted_3$5,
       _hoisted_4$3,
       _hoisted_5$3
     ]),
     _: 1
   }, 16);
 }
-var Bars = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["render", _sfc_render$8]]);
-const _sfc_main$7 = {
+var Bars = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$9]]);
+const _sfc_main$8 = {
   name: "Circles",
   props: {
     width: {
@@ -362,7 +362,7 @@ const _sfc_main$7 = {
     }
   }
 };
-const _hoisted_1$7 = /* @__PURE__ */ createElementVNode("path", { d: "M67.447 58c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10zm9.448 9.447c0 5.523 4.477 10 10 10 5.522 0 10-4.477 10-10s-4.478-10-10-10c-5.523 0-10 4.477-10 10zm-9.448 9.448c-5.523 0-10 4.477-10 10 0 5.522 4.477 10 10 10s10-4.478 10-10c0-5.523-4.477-10-10-10zM58 67.447c0-5.523-4.477-10-10-10s-10 4.477-10 10 4.477 10 10 10 10-4.477 10-10z" }, [
+const _hoisted_1$8 = /* @__PURE__ */ createElementVNode("path", { d: "M67.447 58c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10zm9.448 9.447c0 5.523 4.477 10 10 10 5.522 0 10-4.477 10-10s-4.478-10-10-10c-5.523 0-10 4.477-10 10zm-9.448 9.448c-5.523 0-10 4.477-10 10 0 5.522 4.477 10 10 10s10-4.478 10-10c0-5.523-4.477-10-10-10zM58 67.447c0-5.523-4.477-10-10-10s-10 4.477-10 10 4.477 10 10 10 10-4.477 10-10z" }, [
   /* @__PURE__ */ createElementVNode("animateTransform", {
     attributeName: "transform",
     type: "rotate",
@@ -372,7 +372,7 @@ const _hoisted_1$7 = /* @__PURE__ */ createElementVNode("path", { d: "M67.447 58
     repeatCount: "indefinite"
   })
 ], -1);
-const _hoisted_2$4 = /* @__PURE__ */ createElementVNode("path", { d: "M28.19 40.31c6.627 0 12-5.374 12-12 0-6.628-5.373-12-12-12-6.628 0-12 5.372-12 12 0 6.626 5.372 12 12 12zm30.72-19.825c4.686 4.687 12.284 4.687 16.97 0 4.686-4.686 4.686-12.284 0-16.97-4.686-4.687-12.284-4.687-16.97 0-4.687 4.686-4.687 12.284 0 16.97zm35.74 7.705c0 6.627 5.37 12 12 12 6.626 0 12-5.373 12-12 0-6.628-5.374-12-12-12-6.63 0-12 5.372-12 12zm19.822 30.72c-4.686 4.686-4.686 12.284 0 16.97 4.687 4.686 12.285 4.686 16.97 0 4.687-4.686 4.687-12.284 0-16.97-4.685-4.687-12.283-4.687-16.97 0zm-7.704 35.74c-6.627 0-12 5.37-12 12 0 6.626 5.373 12 12 12s12-5.374 12-12c0-6.63-5.373-12-12-12zm-30.72 19.822c-4.686-4.686-12.284-4.686-16.97 0-4.686 4.687-4.686 12.285 0 16.97 4.686 4.687 12.284 4.687 16.97 0 4.687-4.685 4.687-12.283 0-16.97zm-35.74-7.704c0-6.627-5.372-12-12-12-6.626 0-12 5.373-12 12s5.374 12 12 12c6.628 0 12-5.373 12-12zm-19.823-30.72c4.687-4.686 4.687-12.284 0-16.97-4.686-4.686-12.284-4.686-16.97 0-4.687 4.686-4.687 12.284 0 16.97 4.686 4.687 12.284 4.687 16.97 0z" }, [
+const _hoisted_2$5 = /* @__PURE__ */ createElementVNode("path", { d: "M28.19 40.31c6.627 0 12-5.374 12-12 0-6.628-5.373-12-12-12-6.628 0-12 5.372-12 12 0 6.626 5.372 12 12 12zm30.72-19.825c4.686 4.687 12.284 4.687 16.97 0 4.686-4.686 4.686-12.284 0-16.97-4.686-4.687-12.284-4.687-16.97 0-4.687 4.686-4.687 12.284 0 16.97zm35.74 7.705c0 6.627 5.37 12 12 12 6.626 0 12-5.373 12-12 0-6.628-5.374-12-12-12-6.63 0-12 5.372-12 12zm19.822 30.72c-4.686 4.686-4.686 12.284 0 16.97 4.687 4.686 12.285 4.686 16.97 0 4.687-4.686 4.687-12.284 0-16.97-4.685-4.687-12.283-4.687-16.97 0zm-7.704 35.74c-6.627 0-12 5.37-12 12 0 6.626 5.373 12 12 12s12-5.374 12-12c0-6.63-5.373-12-12-12zm-30.72 19.822c-4.686-4.686-12.284-4.686-16.97 0-4.686 4.687-4.686 12.285 0 16.97 4.686 4.687 12.284 4.687 16.97 0 4.687-4.685 4.687-12.283 0-16.97zm-35.74-7.704c0-6.627-5.372-12-12-12-6.626 0-12 5.373-12 12s5.374 12 12 12c6.628 0 12-5.373 12-12zm-19.823-30.72c4.687-4.686 4.687-12.284 0-16.97-4.686-4.686-12.284-4.686-16.97 0-4.687 4.686-4.687 12.284 0 16.97 4.686 4.687 12.284 4.687 16.97 0z" }, [
   /* @__PURE__ */ createElementVNode("animateTransform", {
     attributeName: "transform",
     type: "rotate",
@@ -382,17 +382,17 @@ const _hoisted_2$4 = /* @__PURE__ */ createElementVNode("path", { d: "M28.19 40.
     repeatCount: "indefinite"
   })
 ], -1);
-function _sfc_render$7(_ctx, _cache, $props, $setup, $data, $options) {
+function _sfc_render$8(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 135 135" }), {
     default: withCtx(() => [
-      _hoisted_1$7,
-      _hoisted_2$4
+      _hoisted_1$8,
+      _hoisted_2$5
     ]),
     _: 1
   }, 16);
 }
-var Circles = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["render", _sfc_render$7]]);
-const _sfc_main$6 = {
+var Circles = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["render", _sfc_render$8]]);
+const _sfc_main$7 = {
   name: "Grid",
   props: {
     width: {
@@ -409,7 +409,7 @@ const _sfc_main$6 = {
     }
   }
 };
-const _hoisted_1$6 = /* @__PURE__ */ createElementVNode("circle", {
+const _hoisted_1$7 = /* @__PURE__ */ createElementVNode("circle", {
   cx: "12.5",
   cy: "12.5",
   r: "12.5"
@@ -423,7 +423,7 @@ const _hoisted_1$6 = /* @__PURE__ */ createElementVNode("circle", {
     repeatCount: "indefinite"
   })
 ], -1);
-const _hoisted_2$3 = /* @__PURE__ */ createElementVNode("circle", {
+const _hoisted_2$4 = /* @__PURE__ */ createElementVNode("circle", {
   cx: "12.5",
   cy: "52.5",
   r: "12.5",
@@ -438,7 +438,7 @@ const _hoisted_2$3 = /* @__PURE__ */ createElementVNode("circle", {
     repeatCount: "indefinite"
   })
 ], -1);
-const _hoisted_3$3 = /* @__PURE__ */ createElementVNode("circle", {
+const _hoisted_3$4 = /* @__PURE__ */ createElementVNode("circle", {
   cx: "52.5",
   cy: "12.5",
   r: "12.5"
@@ -536,12 +536,12 @@ const _hoisted_9$1 = /* @__PURE__ */ createElementVNode("circle", {
     repeatCount: "indefinite"
   })
 ], -1);
-function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
+function _sfc_render$7(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 105 105" }), {
     default: withCtx(() => [
-      _hoisted_1$6,
-      _hoisted_2$3,
-      _hoisted_3$3,
+      _hoisted_1$7,
+      _hoisted_2$4,
+      _hoisted_3$4,
       _hoisted_4$2,
       _hoisted_5$2,
       _hoisted_6$1,
@@ -552,8 +552,8 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   }, 16);
 }
-var Grid = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["render", _sfc_render$6]]);
-const _sfc_main$5 = {
+var Grid = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["render", _sfc_render$7]]);
+const _sfc_main$6 = {
   name: "Hearts",
   props: {
     width: {
@@ -570,7 +570,7 @@ const _sfc_main$5 = {
     }
   }
 };
-const _hoisted_1$5 = /* @__PURE__ */ createElementVNode("path", {
+const _hoisted_1$6 = /* @__PURE__ */ createElementVNode("path", {
   d: "M30.262 57.02L7.195 40.723c-5.84-3.976-7.56-12.06-3.842-18.063 3.715-6 11.467-7.65 17.306-3.68l4.52 3.76 2.6-5.274c3.717-6.002 11.47-7.65 17.305-3.68 5.84 3.97 7.56 12.054 3.842 18.062L34.49 56.118c-.897 1.512-2.793 1.915-4.228.9z",
   "fill-opacity": "0.5"
 }, [
@@ -583,7 +583,7 @@ const _hoisted_1$5 = /* @__PURE__ */ createElementVNode("path", {
     repeatCount: "indefinite"
   })
 ], -1);
-const _hoisted_2$2 = /* @__PURE__ */ createElementVNode("path", {
+const _hoisted_2$3 = /* @__PURE__ */ createElementVNode("path", {
   d: "M105.512 56.12l-14.44-24.272c-3.716-6.008-1.996-14.093 3.843-18.062 5.835-3.97 13.588-2.322 17.306 3.68l2.6 5.274 4.52-3.76c5.84-3.97 13.592-2.32 17.307 3.68 3.718 6.003 1.998 14.088-3.842 18.064L109.74 57.02c-1.434 1.014-3.33.61-4.228-.9z",
   "fill-opacity": "0.5"
 }, [
@@ -596,19 +596,19 @@ const _hoisted_2$2 = /* @__PURE__ */ createElementVNode("path", {
     repeatCount: "indefinite"
   })
 ], -1);
-const _hoisted_3$2 = /* @__PURE__ */ createElementVNode("path", { d: "M67.408 57.834l-23.01-24.98c-5.864-6.15-5.864-16.108 0-22.248 5.86-6.14 15.37-6.14 21.234 0L70 16.168l4.368-5.562c5.863-6.14 15.375-6.14 21.235 0 5.863 6.14 5.863 16.098 0 22.247l-23.007 24.98c-1.43 1.556-3.757 1.556-5.188 0z" }, null, -1);
-function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
+const _hoisted_3$3 = /* @__PURE__ */ createElementVNode("path", { d: "M67.408 57.834l-23.01-24.98c-5.864-6.15-5.864-16.108 0-22.248 5.86-6.14 15.37-6.14 21.234 0L70 16.168l4.368-5.562c5.863-6.14 15.375-6.14 21.235 0 5.863 6.14 5.863 16.098 0 22.247l-23.007 24.98c-1.43 1.556-3.757 1.556-5.188 0z" }, null, -1);
+function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 140 64" }), {
     default: withCtx(() => [
-      _hoisted_1$5,
-      _hoisted_2$2,
-      _hoisted_3$2
+      _hoisted_1$6,
+      _hoisted_2$3,
+      _hoisted_3$3
     ]),
     _: 1
   }, 16);
 }
-var Hearts = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["render", _sfc_render$5]]);
-const _sfc_main$4 = {
+var Hearts = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["render", _sfc_render$6]]);
+const _sfc_main$5 = {
   name: "Oval",
   props: {
     width: {
@@ -625,7 +625,7 @@ const _sfc_main$4 = {
     }
   }
 };
-const _hoisted_1$4 = /* @__PURE__ */ createElementVNode("g", {
+const _hoisted_1$5 = /* @__PURE__ */ createElementVNode("g", {
   transform: "translate(1 1)",
   "stroke-width": "2",
   fill: "none",
@@ -648,16 +648,16 @@ const _hoisted_1$4 = /* @__PURE__ */ createElementVNode("g", {
     })
   ])
 ], -1);
-function _sfc_render$4(_ctx, _cache, $props, $setup, $data, $options) {
+function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 38 38" }), {
     default: withCtx(() => [
-      _hoisted_1$4
+      _hoisted_1$5
     ]),
     _: 1
   }, 16);
 }
-var Oval = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render$4]]);
-const _sfc_main$3 = {
+var Oval = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["render", _sfc_render$5]]);
+const _sfc_main$4 = {
   name: "Puff",
   props: {
     width: {
@@ -674,7 +674,7 @@ const _sfc_main$3 = {
     }
   }
 };
-const _hoisted_1$3 = /* @__PURE__ */ createElementVNode("g", {
+const _hoisted_1$4 = /* @__PURE__ */ createElementVNode("g", {
   fill: "none",
   "fill-rule": "evenodd",
   "stroke-width": "2"
@@ -732,16 +732,16 @@ const _hoisted_1$3 = /* @__PURE__ */ createElementVNode("g", {
     })
   ])
 ], -1);
-function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
+function _sfc_render$4(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 44 44" }), {
     default: withCtx(() => [
-      _hoisted_1$3
+      _hoisted_1$4
     ]),
     _: 1
   }, 16);
 }
-var Puff = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$3]]);
-const _sfc_main$2 = {
+var Puff = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render$4]]);
+const _sfc_main$3 = {
   name: "Rings",
   props: {
     width: {
@@ -758,7 +758,7 @@ const _sfc_main$2 = {
     }
   }
 };
-const _hoisted_1$2 = /* @__PURE__ */ createElementVNode("g", {
+const _hoisted_1$3 = /* @__PURE__ */ createElementVNode("g", {
   fill: "none",
   "fill-rule": "evenodd",
   transform: "translate(1 1)",
@@ -841,16 +841,16 @@ const _hoisted_1$2 = /* @__PURE__ */ createElementVNode("g", {
     })
   ])
 ], -1);
-function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
+function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 45 45" }), {
     default: withCtx(() => [
-      _hoisted_1$2
+      _hoisted_1$3
     ]),
     _: 1
   }, 16);
 }
-var Rings = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["render", _sfc_render$2]]);
-const _sfc_main$1 = {
+var Rings = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$3]]);
+const _sfc_main$2 = {
   name: "SpinningCircles",
   props: {
     width: {
@@ -871,8 +871,8 @@ const _sfc_main$1 = {
     }
   }
 };
-const _hoisted_1$1 = ["stroke", "fill"];
-const _hoisted_2$1 = /* @__PURE__ */ createElementVNode("circle", {
+const _hoisted_1$2 = ["stroke", "fill"];
+const _hoisted_2$2 = /* @__PURE__ */ createElementVNode("circle", {
   cx: "42.601",
   cy: "11.462",
   r: "5"
@@ -886,7 +886,7 @@ const _hoisted_2$1 = /* @__PURE__ */ createElementVNode("circle", {
     repeatCount: "indefinite"
   })
 ], -1);
-const _hoisted_3$1 = /* @__PURE__ */ createElementVNode("circle", {
+const _hoisted_3$2 = /* @__PURE__ */ createElementVNode("circle", {
   cx: "49.063",
   cy: "27.063",
   r: "5",
@@ -992,8 +992,8 @@ const _hoisted_9 = /* @__PURE__ */ createElementVNode("circle", {
   })
 ], -1);
 const _hoisted_10 = [
-  _hoisted_2$1,
-  _hoisted_3$1,
+  _hoisted_2$2,
+  _hoisted_3$2,
   _hoisted_4$1,
   _hoisted_5$1,
   _hoisted_6,
@@ -1001,8 +1001,8 @@ const _hoisted_10 = [
   _hoisted_8,
   _hoisted_9
 ];
-function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
-  return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps({ height: _ctx.$props.height, width: _ctx.$props.width }, { viewBox: "0 0 58 58" }), {
+function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
+  return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 58 58" }), {
     default: withCtx(() => [
       createElementVNode("g", {
         transform: "translate(2 1)",
@@ -1010,13 +1010,13 @@ function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
         "stroke-width": "1.5",
         fill: $props.fill,
         "fill-rule": "evenodd"
-      }, _hoisted_10, 8, _hoisted_1$1)
+      }, _hoisted_10, 8, _hoisted_1$2)
     ]),
     _: 1
   }, 16);
 }
-var SpinningCircles = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render$1]]);
-const _sfc_main = {
+var SpinningCircles = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["render", _sfc_render$2]]);
+const _sfc_main$1 = {
   name: "TailSpin",
   props: {
     width: {
@@ -1033,15 +1033,15 @@ const _sfc_main = {
     }
   }
 };
-const _hoisted_1 = {
+const _hoisted_1$1 = {
   x1: "8.042%",
   y1: "0%",
   x2: "65.682%",
   y2: "23.865%",
   id: "prefix__a"
 };
-const _hoisted_2 = ["stop-color"];
-const _hoisted_3 = ["stop-color"];
+const _hoisted_2$1 = ["stop-color"];
+const _hoisted_3$1 = ["stop-color"];
 const _hoisted_4 = ["stop-color"];
 const _hoisted_5 = /* @__PURE__ */ createElementVNode("g", {
   transform: "translate(1 1)",
@@ -1078,21 +1078,21 @@ const _hoisted_5 = /* @__PURE__ */ createElementVNode("g", {
     })
   ])
 ], -1);
-function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
-  return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps({ height: _ctx.$props.height, width: _ctx.$props.width }, { viewBox: "0 0 38 38" }), {
+function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
+  return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 38 38" }), {
     default: withCtx(() => [
       createElementVNode("defs", null, [
-        createElementVNode("linearGradient", _hoisted_1, [
+        createElementVNode("linearGradient", _hoisted_1$1, [
           createElementVNode("stop", {
             "stop-color": $props.stopColor,
             "stop-opacity": "0",
             offset: "0%"
-          }, null, 8, _hoisted_2),
+          }, null, 8, _hoisted_2$1),
           createElementVNode("stop", {
             "stop-color": $props.stopColor,
             "stop-opacity": "0.631",
             offset: "63.146%"
-          }, null, 8, _hoisted_3),
+          }, null, 8, _hoisted_3$1),
           createElementVNode("stop", {
             "stop-color": $props.stopColor,
             offset: "100%"
@@ -1104,5 +1104,112 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
   }, 16);
 }
-var TailSpin = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
-export { Audio, BallTriangle, Bars, Circles, Grid, Hearts, Oval, Puff, Rings, SpinningCircles, TailSpin };
+var TailSpin = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render$1]]);
+const _sfc_main = {
+  name: "ThreeDots",
+  props: {
+    width: {
+      type: [Number, String],
+      default: "100%"
+    },
+    height: {
+      type: Number,
+      default: 58
+    },
+    fill: {
+      type: String,
+      default: "#000"
+    }
+  }
+};
+const _hoisted_1 = /* @__PURE__ */ createElementVNode("circle", {
+  cx: "15",
+  cy: "15",
+  r: "15"
+}, [
+  /* @__PURE__ */ createElementVNode("animate", {
+    attributeName: "r",
+    from: "15",
+    to: "15",
+    begin: "0s",
+    dur: "0.8s",
+    values: "15;9;15",
+    calcMode: "linear",
+    repeatCount: "indefinite"
+  }),
+  /* @__PURE__ */ createElementVNode("animate", {
+    attributeName: "fill-opacity",
+    from: "1",
+    to: "1",
+    begin: "0s",
+    dur: "0.8s",
+    values: "1;.5;1",
+    calcMode: "linear",
+    repeatCount: "indefinite"
+  })
+], -1);
+const _hoisted_2 = /* @__PURE__ */ createElementVNode("circle", {
+  cx: "60",
+  cy: "15",
+  r: "9",
+  "fill-opacity": "0.3"
+}, [
+  /* @__PURE__ */ createElementVNode("animate", {
+    attributeName: "r",
+    from: "9",
+    to: "9",
+    begin: "0s",
+    dur: "0.8s",
+    values: "9;15;9",
+    calcMode: "linear",
+    repeatCount: "indefinite"
+  }),
+  /* @__PURE__ */ createElementVNode("animate", {
+    attributeName: "fill-opacity",
+    from: "0.5",
+    to: "0.5",
+    begin: "0s",
+    dur: "0.8s",
+    values: ".5;1;.5",
+    calcMode: "linear",
+    repeatCount: "indefinite"
+  })
+], -1);
+const _hoisted_3 = /* @__PURE__ */ createElementVNode("circle", {
+  cx: "105",
+  cy: "15",
+  r: "15"
+}, [
+  /* @__PURE__ */ createElementVNode("animate", {
+    attributeName: "r",
+    from: "15",
+    to: "15",
+    begin: "0s",
+    dur: "0.8s",
+    values: "15;9;15",
+    calcMode: "linear",
+    repeatCount: "indefinite"
+  }),
+  /* @__PURE__ */ createElementVNode("animate", {
+    attributeName: "fill-opacity",
+    from: "1",
+    to: "1",
+    begin: "0s",
+    dur: "0.8s",
+    values: "1;.5;1",
+    calcMode: "linear",
+    repeatCount: "indefinite"
+  })
+], -1);
+function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return openBlock(), createBlock(resolveDynamicComponent("svg"), mergeProps(_ctx.$props, { viewBox: "0 0 120 30" }), {
+    default: withCtx(() => [
+      _hoisted_1,
+      _hoisted_2,
+      _hoisted_3
+    ]),
+    _: 1
+  }, 16);
+}
+var ThreeDots = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
+export { Audio, BallTriangle, Bars, Circles, Grid, Hearts, Oval, Puff, Rings, SpinningCircles, TailSpin, ThreeDots };
