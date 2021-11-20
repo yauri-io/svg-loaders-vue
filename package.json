@@ -2,32 +2,40 @@
   "name": "svg-loaders-vue",
   "version": "1.1.1",
   "description": "Vue implementation of the SVG Loaders library by Sam Herbert",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yauri-io/svg-loaders-vue.git"
+  "author": "y-io",
+  "scripts": {
+    "build": "vite build",
+    "lint": "vue-cli-service lint"
   },
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
   "files": [
     "dist"
   ],
-  "main": "./dist/index.umd.js",
-  "module": "./dist/index.es.js",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.4",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "^4.5.15",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "lint-staged": "^9.5.0",
+    "path": "^0.12.7",
+    "prettier": "^2.2.1",
+    "vite": "^2.6.14"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.22"
+  },
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
       "require": "./dist/index.umd.js"
     }
   },
-  "peerDependencies": {
-    "vue": "^3.2.22"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^1.9.4",
-    "path": "^0.12.7",
-    "vite": "^2.6.14"
-  },
-  "scripts": {
-    "dev": "vite ./src/demo",
-    "build": "vite build"
+  "gitHooks": {
+    "pre-commit": "lint-staged"
   },
   "keywords": [
     "vue",
@@ -39,6 +47,15 @@
     "spinners",
     "spinner"
   ],
-  "author": "y-io",
-  "license": "MIT"
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yauri-io/svg-loaders-vue.git"
+  }
 }
