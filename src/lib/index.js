@@ -10,3 +10,4 @@ export { default as Rings } from "./components/Rings.vue";
 export { default as SpinningCircles } from "./components/SpinningCircles.vue";
 export { default as TailSpin } from "./components/TailSpin.vue";
 export { default as ThreeDots } from "./components/ThreeDots.vue";
+export { default as DualRing } from "./components/DualRing.vue";
